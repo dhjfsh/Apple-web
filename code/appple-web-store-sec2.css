@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.backround{
+  width: 1920px;
+}
+.section2 .title{
+  width: 331.64px;
+  height: 34px;
+
+}

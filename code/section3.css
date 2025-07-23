@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+}
+.section3-items{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 16px;
+}
+
+.section3-item{
+  position: relative;
+  scroll-snap-align: center;
+}
+.item-content {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  bottom: 68px;
+  right: 674px;
+}
+.item2-button{
+  background: #ffffff;
+  width: 133px;
+  height: 44px;
+  border-radius: 999px;
+  color: #000000;
+  left: 70px;
+  bottom: 58px;
+  padding: 12px 20px;
+}
+.item2-text{
+  color: #FFF;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.60);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+}
+.section3-bullets{
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  gap: 15px;
+}
+.bullet{
+  background-color: gray;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
+body:has(#item1:target) .bullet1{
+background-color: #000000;
+}
+body:has(#item2:target) .bullet2{
+background-color: #000000;
+}
+body:has(#item3:target) .bullet3{
+background-color: #000000;
+}

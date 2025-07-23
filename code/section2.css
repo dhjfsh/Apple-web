@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.section2{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.sec2-part1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sec2-part1-1{
+    background-image: url("../images/ipad.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part1-2{
+    background-image: url("../images/watch.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part1-3{
+    background-image: url("../images/trade.png");
+    width: 942px;
+    height: 580px;
+}
+
+.sec2-con-part1-footer{
+    margin-top: 324px;
+}
+.sec2-con-parts .primary-button{
+    background-color: #0071E3;
+}
+.sec2-con-parts .secondary-button{
+    border: 1px solid #2997FF;
+}
+.sec2-con-parts .secondary-button:hover{
+    border: 1px solid #ffffff00;
+}
+.sec2-con-parts .secondary-button p{
+    color:#2997FF;
+}
+.sec2-con-parts .container-header{
+    display: flex;
+    gap: 8px;
+}
+.sec2-con-parts .header-name{
+    font-size: 32px;
+    font-weight: 700;
+}
+.sec2-con-part1-footer{
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+.sec2-con-parts-text2{
+    display: flex;
+    justify-content: center;
+    color: #1D1D1F;
+    font-size: 18px;
+    font-weight: 400;
+    width: 322px;
+    margin-top: 4px;
+}
+.sec2-con-part1-1-text2{
+    margin-top: 9px;
+}
+.sec2-part1-2-text1{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px; 
+    margin-top: 4px; 
+}
+.sec2-part2-1 .container{
+    margin-top: 401px;
+}
+.sec2-part2-1-header-name{
+    color: #F5F5F7;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.sec2-part2-1-text2{
+    color: #F5F5F7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.sec2-part2-2-header-name{
+   color: #1D1D1F;
+   font-size: 36px;
+   font-weight: 600; 
+}
+
+.sec2-part2{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+.sec2-part2-1{
+    background-image: url("../images/airpods.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part2-2{
+    background-image: url("../images/macbook.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part2-3{
+    background-image: url("../images/card.png");
+    width: 942px;
+    height: 580px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+}

@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #F5F5F7CC; 
+    width: 1920px;
+    height: 44px;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-decoration: 0;
+    height: 44px;
+}
+.nav-logo-button{
+    display: flex;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 52px;
+}
+.title p{
+    color: #1D1D1F;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sec1 {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 692px;
+}
+.sec1-part1{
+    background-image: url("../images/Background.png");
+}
+.sec1-part2{
+    background-image: url("../images/Figure.png");
+    margin-top: 16px;
+}
+.sec1-part3{
+    background-image: url("../images/section3.png");
+    margin-top: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+.container h1{
+   color: #F5F5F7;
+   text-align: center;
+   font-size: 52px;
+   font-weight: 600;
+}
+.container p{
+    color: #F5F5F7;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    color: #F5F5F7;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    gap: 16px;
+    margin-top: 20px;
+    border-radius: 999px;
+}
+.primary-button{
+    background-color: #0071E3;
+    border-radius: 999px;
+    padding: 12px 20px;
+    
+}
+.secondary-button{
+    border-radius: 999px;
+    border: 1px solid #2997FF;
+    padding: 12px 20px;
+}
+.primary-button p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.secondary-button p{
+    color: #2997FF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sec3-container{
+    margin-top: 446px;
+}
+.sec3-container h1{
+    color: #000;
+}
+.sec3-container p{
+    color: #000;
+}
+.container-buttons p{
+    color: #ffffff;
+}
+.section2{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.sec2-part1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sec2-part1-1{
+    background-image: url("../images/ipad.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part1-2{
+    background-image: url("../images/watch.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part1-3{
+    background-image: url("../images/trade.png");
+    width: 942px;
+    height: 580px;
+}
+.section2{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.sec2-part2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sec2-part2-1{
+    background-image: url("../images/airpods.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part2-2{
+    background-image: url("../images/macbook.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part2-3{
+    background-image: url("../images/");
+    width: 942px;
+    height: 580px;
+}
