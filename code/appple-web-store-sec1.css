@@ -58,12 +58,12 @@ nav{
 .title{
   display: flex;
   gap: 32px;
-}
-.title1{
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: 52.01px;
+}
+.title1{
   background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -71,11 +71,6 @@ nav{
 }
 .title2{
   color: #6E6E73;
-  font-family: Inter;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52.01px;
 }
 .profile img{
   width: 35px;
