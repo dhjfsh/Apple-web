@@ -34,7 +34,6 @@
 }
 .text1{
   display: flex;
-  justify-content: flex-start;
   color: #B64400;
   font-size: 12px;
   font-weight: 700;
@@ -44,7 +43,7 @@
   width: 6px;
   height: 9px;
 }
-.text2-1{
+.section2 .text2-1{
   color: #1D1D1F;
   font-size: 26px;
   font-weight: 700;
@@ -52,10 +51,13 @@
   letter-spacing: 0.196px;
   margin-top: 9px;
 }
-.text2-2{
+.section2 .text2-2{
   color: #1D1D1F;
   font-size: 18px;
   font-weight: 400;
-  line-height: 20px; 
+  line-height: 20px;
   margin-top: 12px;
+}
+.sec2-content2-2 .text2{
+  margin-top: 23px;
 }

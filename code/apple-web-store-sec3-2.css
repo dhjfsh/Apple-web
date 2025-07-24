@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.backround{
+  width: 1920px;
+}
+
+.sec3-2 .content1{
+  background-image: url(../images/ws-sec3-2-content1-photo.png);
+}
+.sec3-2 .sec3-content2-texts{
+  margin-top: 21px;
+}
+.sec3-2 .sec3-content2 .sec3-content2-texts{
+  margin-top: 0px;
+}
+.sec3-2 .sec3-content5 .sec3-content2-texts{
+  margin-top: 0px;
+}

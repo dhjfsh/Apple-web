@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.backround{
+  background-color:#F5F5F7;;
+  width: 1920px;
+}
+.section3{
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+.sec3-contents{
+  display: flex;
+  margin-top: 24px;
+  gap: 20px;
+}
+.section3 .content1{
+  min-width: 400px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec3-1 .content1{
+  background-image: url(../images/ws-Make\ their\ gift\ one\ of\ a\ kind..png);
+}
+.section3 .content1 p{
+  height: 66px;
+  color: #1D1D1F;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-left: 30px;
+  padding-top: 53px;
+}
+.sec3-1 .content1 p{
+  width: 220px;
+}
+.sec3-2 .content1 p{
+  width: 326px;
+}
+.section3 .content2{
+  min-width: 313px;
+  height: 500px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  padding: 71px 28px 32px 28px;
+}
+.section3 .content2-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec3-content2-img{
+  width: 230px;
+  height: 230px;
+}
+.sec3-content2-items{
+  display: flex;
+  gap: 7px;
+  padding: 25px 86px 21px 79px;
+}
+.sec3-content2-items .img{
+  width: 12px;
+  height: 12px;
+}
+
+.sec3-1 .content2 .sec3-content2-texts{
+  margin-top: 58px;
+}
+.sec3-1 .sec3-content2 .sec3-content2-texts{
+  margin-top: 0px;
+}
+.section3 .text2-1{
+  height: 40px;
+}
+.section3 .text2-2{
+  margin-top: 52px;
+}
+.sec3-1 .sec3-content2-texts{
+  margin-top: 0px;
+}
+.sec3andsec4 .text2-1{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.sec3andsec4 .text2-2{
+  color: #1D1D1F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
