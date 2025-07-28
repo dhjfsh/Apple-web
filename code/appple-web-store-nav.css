@@ -1,10 +1,12 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
 }
 .backround{
+  background-color:#F5F5F7;;
   width: 1920px;
 }
 nav{
@@ -45,34 +47,18 @@ nav{
 .nav-right-3{
     display: none;
 }
-.title{
+.nav-title{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 52px;
 
 }
-.title p{
+.nav-title p{
     color: #1D1D1F;
     font-size: 14px;
     font-weight: 400;
 }
-
-
-@media only screen and (max-width: 768px){
-  .nav-items{
-    display: none;
-  }
-  .nav-right-3{
-    display: block;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 0px;
-  }
-  .nav-menu-icon-right {
-    gap: 0px;
-  }
-
+.sections{
+  margin-left: 140px;
 }

@@ -4,9 +4,6 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
-.backround{
-    width: 1920px;
-}
 
 .sec1 {
     display: flex;
@@ -14,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 692px;
-    width: 100%;
+    width: 1920px;
 }
 .sec1-part1{
     background-image: url("../images/Background.png");

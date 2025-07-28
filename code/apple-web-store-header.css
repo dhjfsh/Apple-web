@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 60px 140px 100px 140px;
+}
+.header .text{
+  color: #1D1D1F;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px; 
+}
+.header-buttons{
+  display: flex;
+  gap:12px;
+}
+.header-button{
+  display: flex;
+  border-radius: 999px;
+  border: 1px solid #1D1D1F;
+  padding: 10px 12px;
+  gap: 8px;
+}
+.header-button a{
+  color: #1D1D1F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+

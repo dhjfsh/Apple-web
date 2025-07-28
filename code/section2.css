@@ -1,35 +1,49 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-}
 
 .section2{
-    display: flex;
+    display: grid;
+    grid-column: 313px 313px;
+    grid-row: 240px 240px;
+    grid-template-columns: 1fr 1fr;
     gap: 12px;
     padding: 12px;
+    width: 1920px;
 }
-.sec2-part1{
+/* .sec2-part1{
     display: flex;
     flex-direction: column;
     gap: 12px;
-}
-.sec2-part1-1{
+} */
+.sec2-part1{
     background-image: url("../images/ipad.png");
     width: 942px;
     height: 580px;
 }
-.sec2-part1-2{
+.sec2-part2{
+    background-image: url("../images/airpods.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part3{
     background-image: url("../images/watch.png");
     width: 942px;
     height: 580px;
 }
-.sec2-part1-3{
+.sec2-part4{
+    background-image: url("../images/macbook.png");
+    width: 942px;
+    height: 580px;
+}
+.sec2-part5{
     background-image: url("../images/trade.png");
     width: 942px;
     height: 580px;
 }
+.sec2-part6{
+    background-image: url("../images/card.png");
+    width: 942px;
+    height: 580px;
+}
+
 
 .sec2-con-part1-footer{
     margin-top: 324px;
@@ -100,30 +114,28 @@
    font-weight: 600; 
 }
 
-.sec2-part2{
+/* .sec2-part2{
    display: flex;
    flex-direction: column;
    gap: 12px;
-}
-.sec2-part2-1{
-    background-image: url("../images/airpods.png");
-    width: 942px;
-    height: 580px;
-}
-.sec2-part2-2{
-    background-image: url("../images/macbook.png");
-    width: 942px;
-    height: 580px;
-}
-.sec2-part2-3{
-    background-image: url("../images/card.png");
-    width: 942px;
-    height: 580px;
-}
+} */
+
 
 
 
 
 @media only screen and (max-width: 768px){
-
+    .section2{
+    display: grid;
+    grid-column: 313px 313px;
+    grid-row: 240px 240px;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 12px;
+    width: 1920px;
+    }
 }
+
+
+
+  

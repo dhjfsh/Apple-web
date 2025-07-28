@@ -1,0 +1,42 @@
+.sec3-5-content1{
+  background-image: url(../images/ws-sec3-5-content1-photo.png);
+}
+.sec3-5-content2{
+  background-image: url(../images/ws-sec3-5-content2-photo.png);
+}
+.sec3-5-content3{
+  background-image: url(../images/ws-sec3-5-content3-photo.png);
+}
+.sec3-5-content4{
+  background-image: url(../images/ws-sec3-5-content4-photo.png);
+}
+.sec3-5-content5{
+  background-image: url(../images/ws-sec3-5-content5-photo.jpg);
+}
+
+.sec3-5 .content1{
+  width: 400px;
+  height: 500px;
+}
+.sec3-5-title1{
+  display: flex;
+  gap: 32px;
+}
+.sec3-5 .title{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.sec3-5-content1 .text2{
+  width: 320.79px;
+}
+.sec3-5-content1 .text3{
+  width: 330.67px;
+}
+.sec3-5 .sec3-5-content4 .text2{
+  color: #ffffff;
+  width: 306px;
+}
+.sec3-5 .sec3-5-content5 .text2{
+  width: 340px;
+}
